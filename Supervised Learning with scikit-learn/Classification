@@ -18,6 +18,7 @@ knn = KNeighborsClassifier(n_neighbors=6)
 # Fit the classifier to the data
 knn.fit(X,y)
 
+========================================================================================================================================
 Instructions
 100 XP
 Create arrays for the features and the target variable from df. As a reminder, the target variable is 'party'.
@@ -46,6 +47,7 @@ y_pred = knn.predict(X)
 new_prediction = knn.predict(X_new)
 print("Prediction: {}".format(new_prediction))
 
+========================================================================================================================================
 Instructions
 100 XP
 Import datasets from sklearn and matplotlib.pyplot as plt.
@@ -74,6 +76,7 @@ print(digits.images.shape)
 plt.imshow(digits.images[1010], cmap=plt.cm.gray_r, interpolation='nearest')
 plt.show()
 
+========================================================================================================================================
 Instructions
 100 XP
 Import KNeighborsClassifier from sklearn.neighbors and train_test_split from sklearn.model_selection.
@@ -102,6 +105,7 @@ knn.fit(X_train, y_train)
 # Print the accuracy
 print(knn.score(X_test, y_test))
 
+========================================================================================================================================
 Instructions
 100 XP
 Inside the for loop:
